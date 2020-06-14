@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Validator from './components/Validator';
+import ValidatorList from './components/ValidatorList';
 
 function App() {
   return (
     <div className="App">
-      <Validator />
+      <ValidatorList />
     </div>
   );
 }
